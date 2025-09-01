@@ -8,7 +8,7 @@ on:
     types: [opened, labeled]
 
 jobs:
-  expression-functions:
+  print-labels:
     runs-on: ubuntu-latest
     steps:
       - name: Check if string contains substring
