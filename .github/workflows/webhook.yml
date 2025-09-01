@@ -6,10 +6,9 @@ on:
       - webhook
 
 jobs:
-  respond-to-dispatch:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Run a script
-        run: echo "Event of type: $GITHUB_EVENT_NAME"
+
